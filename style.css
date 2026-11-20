@@ -1,0 +1,169 @@
+/* Simple style sheet for The Ancient Academies */
+
+body {
+  background-color: #f3ead8;
+  color: #2b2118;
+  font-family: Georgia, serif;
+  font-size: 18px;
+  margin: 0;
+}
+
+/* different background colour for each university */
+body.nalanda { background-color: #f2dccb; }
+body.takshashila { background-color: #efe3c6; }
+body.vikramashila { background-color: #e3dccf; }
+
+/* top menu */
+.menu {
+  background-color: #2b2118;
+  text-align: center;
+  padding: 15px;
+}
+
+.menu a {
+  color: #e8c875;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.menu a:hover {
+  color: white;
+}
+
+/* main box in the middle */
+.page {
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #6b3a1e;
+  font-size: 42px;
+  text-align: center;
+  border-bottom: 3px solid #b8892f;
+  padding-bottom: 10px;
+}
+
+h2 {
+  color: #8a5a23;
+  font-size: 26px;
+}
+
+.tagline {
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.note {
+  background-color: #fff8e6;
+  border-left: 5px solid #b8892f;
+  padding: 10px;
+}
+
+/* pictures */
+.photo {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.photo img {
+  border: 5px solid #fff;
+}
+
+.caption {
+  font-size: 14px;
+  font-style: italic;
+  color: #5a4a3a;
+}
+
+/* three small pictures side by side */
+.row {
+  text-align: center;
+}
+
+.photo.small {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+}
+
+/* quick facts table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff8e6;
+}
+
+td {
+  border: 1px solid #b8892f;
+  padding: 8px;
+}
+
+td.label {
+  font-weight: bold;
+  width: 25%;
+  background-color: #ecd9a8;
+}
+
+/* home page boxes */
+.card {
+  background-color: #fff8e6;
+  border: 2px solid #b8892f;
+  padding: 15px;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.card h2 a {
+  color: #6b3a1e;
+  text-decoration: none;
+}
+
+/* buttons */
+.button {
+  background-color: #6b3a1e;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin: 5px;
+  display: inline-block;
+}
+
+.button:hover {
+  background-color: #b8892f;
+}
+
+.links {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.other {
+  text-align: center;
+}
+
+a {
+  color: #8a3b12;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* bottom footer */
+.footer {
+  background-color: #2b2118;
+  color: #e8c875;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+.footer p {
+  margin: 5px;
+}
